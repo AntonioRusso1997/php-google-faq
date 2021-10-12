@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width:  60% ;
+    margin: 40px auto;
+} 
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #3e383a;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #3e383a;
+}
+
+.my-paragraph {
+    font-size: 16px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+
+ol>li {
+    padding-left: 16px;
+}
+
+li>ol {
+    padding-left: 25px;
+    list-style-type: lower-alpha;
+}
